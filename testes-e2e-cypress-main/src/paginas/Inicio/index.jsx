@@ -16,6 +16,11 @@ export default function Inicio() {
               Experimente mais liberdade no controle da sua vida financeira.
               Crie sua conta com a gente!
             </h1>
+            
+            <h2 data-test="subtitulo">
+              Bem-vindo ao nosso site
+            </h2>
+
             <img
               src={ilustracaoBanner}
               alt="Gráficos e uma pessoa com dinheiro na mão"
