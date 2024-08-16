@@ -29,5 +29,5 @@ Cypress.Commands.add('getByData', (seletor) => {
 })
 
 Cypress.Commands.add('getByName', (seletor) => {
-    return cy.get(`[imagem-saque=${seletor}]`)
+    return cy.get(`[data-test=${seletor}]`)
 })
