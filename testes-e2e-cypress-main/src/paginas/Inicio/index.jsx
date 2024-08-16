@@ -30,7 +30,7 @@ export default function Inicio() {
             <h2 data-test="titulo-vantagens">Vantagens do nosso banco:</h2>
             <div className={estilos.vantagens__itens} data-test="vantagens-itens">
               <div className={estilos.vantagens__item} data-test="vantagens-item">
-                <img src={presente} alt="ícone de um presente" />
+                <img src={presente} alt="ícone de um presente" data-test="imagem" />
                 <h3 data-test="beneficios">Conta e cartão gratuitos</h3>
                 <p data-test="descrição-beneficios">
                   Isso mesmo, nossa conta é digital, sem custo fixo e mais que
@@ -38,7 +38,7 @@ export default function Inicio() {
                 </p>
               </div>
               <div className={estilos.vantagens__item} data-test="vantagens-item">
-                <img src={saque} alt="ícone de uma mão segurando um dinheiro" />
+                <img src={saque} alt="ícone de uma mão segurando um dinheiro" data-test="imagem" />
                 <h3 data-test="sem-custos">Saques sem custo</h3>
                 <p data-test="descrição-beneficios">
                   Você pode sacar gratuitamente 4x por mês de qualquer Banco
@@ -46,7 +46,7 @@ export default function Inicio() {
                 </p>
               </div>
               <div className={estilos.vantagens__item}data-test="vantagens-item">
-                <img src={estrela} alt="ícone de uma estrela" />
+                <img src={estrela} alt="ícone de uma estrela" data-test="imagem"/>
                 <h3 data-test="programa-pontos">Programa de pontos</h3>
                 <p data-test="acumulo-pontos">
                   Você pode acumular pontos com suas compras no crédito sem
@@ -57,6 +57,7 @@ export default function Inicio() {
                 <img
                   src={dispositivo}
                   alt="ícone de um dispositivo como notebook"
+                  data-test="imagem"
                 />
                 <h3 data-test="seg-dispositivos">Seguro Dispositivos</h3 >
                 <p data-test="descrição-seg">
