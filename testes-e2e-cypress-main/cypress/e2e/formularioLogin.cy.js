@@ -26,6 +26,8 @@ describe('Formulário de login', () => { // contexto do nosso teste
         cy.getByData('botao-enviar').click();
         cy.getByData('mensagem-erro').should('exist').and('have.text', 'O campo de senha é obrigatório');
       });
+
+      
     });
   
   
