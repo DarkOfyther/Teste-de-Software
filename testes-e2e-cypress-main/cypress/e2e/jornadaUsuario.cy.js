@@ -23,4 +23,9 @@ describe('Jornadas de usuário', () => {
     cy.getByData('botao-sair').click()
     cy.location('pathname').should('eq','/')
     })
+
+    it('Deve conseguir acessar a página de cartões', { browser: 'edge' }, () => {
+        // Código do teste
+      })
+
     })
