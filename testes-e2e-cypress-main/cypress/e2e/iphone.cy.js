@@ -4,7 +4,7 @@ context('Resolução do iphone-5 ', () => {
       cy.viewport('iphone-5')
     })
     it('Deve existir um menu burguer', () => {
-
+//dhdh
         cy.visit('/')
         
         cy.getByData('botao-login').click()
